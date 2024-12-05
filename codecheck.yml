@@ -1,0 +1,44 @@
+---
+version: https://codecheck.org.uk/spec/config/1.0
+
+paper:
+  title: >
+    Simulating room transfer functions between transducers mounted on audio devices using a modified image source method 
+
+  authors:
+    - name: Zeyu Xu 
+      ORCID: 0000-0002-4158-6218
+    - name: Adrian Herzog
+      ORCID: 0000-0003-0827-8333 
+    - name: Alexander Lodermeyer 
+      ORCID: 0000-0003-4308-7137
+    - name: Emanuel A.P. Habets
+      ORCID: 0000-0002-2613-8046
+    - name: Albert G. Prinn
+      ORCID: 0000-0003-3491-3644
+  reference: https://doi.org/10.1121/10.0023935
+
+manifest:
+  - file: JASA_figure8_SPL.png
+    comment: Figure 8 (top) in JASA paper 
+  - file: JASA_figure8_SPL.png
+    comment: Figure 8 (bottom) in JASA paper 
+  - file: JASA_figure9_SPL.png
+    comment: Figure 9 (top) in JASA paper 
+  - file: JASA_figure9_SPL.png
+    comment: Figure 9 (bottom) in JASA paper 
+
+codechecker:
+  - name: Silvin Willemsen 
+    ORCID: 0000-0002-4062-5473
+  - name: Ilaria Fichera 
+    ORCID: 0000-0002-0097-1486
+  - name: Andrea Gerbotto 
+    ORCID: 0009-0000-6285-0316
+
+summary: >
+  Full reproduction.
+repository: https://github.com/codecheckers/DEISM
+check_time: "2024-12-05 16:00:00"
+certificate: 2024-022
+report: http://doi.org/10.5281/zenodo.14273316 
