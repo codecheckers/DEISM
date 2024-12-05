@@ -38,6 +38,9 @@ codechecker:
 
 summary: >
   Full reproduction.
+  After running two Python scripts (deism_JASA_fig8.py and deism_JASA_fig9.py in the examples folder) in a public GitHub repository, figures 8 and 9 were successfully reproduced (they seem to be identical to the paper at first glance). 
+  The repository did not provide code to reproduce other plots (Figs. 7, 10 and 11).
+  Other figures (Figs 1-6) seem to only help illustrate the main body of the paper and are therefore not applicable for reproduction with the code.
 repository: https://github.com/codecheckers/DEISM
 check_time: "2024-12-05 16:00:00"
 certificate: 2024-022
